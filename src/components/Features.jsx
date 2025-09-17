@@ -82,7 +82,7 @@ function Features() {
           </p>
         </div>
 
-        <div className="flex justify-between mx-auto">
+        <div className="flex justify-between ml-12 mx-auto">
             <Swiper
               modules={[Autoplay, Grid, FreeMode, Pagination]}
               loop={true} 
