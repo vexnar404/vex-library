@@ -126,13 +126,13 @@ function Features() {
             >
               {featuresData.map((feature, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-full sm:w-[320px] h-[400px] mb-6 bg-white rounded-lg md:shadow-xl">
+                  <div className="w-full sm:w-[320px] h-[400px] mb-12 bg-white rounded-lg md:shadow-xl">
                     <div className="p-6 text-center flex flex-col items-center justify-between h-full">
                       <FontAwesomeIcon icon={feature.icon} className="text-4xl text-[#B15E28] mb-4" />
                       <h3 className="font-['Playfair_Display'] text-xl font-bold text-[#1A374D] mb-2">
                         {feature.title}
                       </h3>
-                      <p className="text-[#212529] mb-4">
+                      <p className="text-[#212529] mb-4 min-h-20">
                         {feature.description}
                       </p>
                       <img
