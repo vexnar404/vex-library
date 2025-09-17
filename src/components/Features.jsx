@@ -126,8 +126,8 @@ function Features() {
             >
               {featuresData.map((feature, index) => (
                 <SwiperSlide key={index}>
-                  <div className="feature-card w-full sm:w-[320px] h-[390px] bg-white rounded-lg md:shadow-xl">
-                    <div className="p-6 text-center flex flex-col items-center">
+                  <div className="feature-card w-full sm:w-[320px] h-[400px] bg-white rounded-lg md:shadow-xl">
+                    <div className="p-6 text-center flex flex-col items-center justify-between h-full">
                       <FontAwesomeIcon icon={feature.icon} className="text-4xl text-[#B15E28] mb-4" />
                       <h3 className="font-['Playfair_Display'] text-xl font-bold text-[#1A374D] mb-2">
                         {feature.title}
@@ -138,7 +138,7 @@ function Features() {
                       <img
                         src={feature.image}
                         alt={feature.title}
-                        className="w-full aspect-video object-cover rounded-lg mt-auto mb-3"
+                        className="w-full aspect-video object-cover rounded-lg mt-auto mb-2"
                       />
                     </div>
                   </div>
