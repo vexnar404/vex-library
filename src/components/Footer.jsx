@@ -8,14 +8,14 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[#1A374D] text-[#e0e0e0] py-16 pb-6">
+    <footer className="bg-[#102332] text-[#e0e0e0] py-16 pb-6">
       <div className="container mx-auto px-4">
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-12 mb-12">
           
           {/* About Section */}
           <div>
-            <h4 className="font-['Playfair_Display'] text-xl font-bold text-white mb-4">
+            <h4 className="text-xl font-bold text-white mb-4">
               About Karam's Library
             </h4>
             <p className="text-sm">
@@ -25,7 +25,7 @@ function Footer() {
 
           {/* Quick Links Section */}
           <div>
-            <h4 className="font-['Playfair_Display'] text-xl font-bold text-white mb-4">
+            <h4 className="text-xl font-bold text-white mb-4">
               Quick Links
             </h4>
             <ul className="list-none p-0 text-sm">
@@ -38,7 +38,7 @@ function Footer() {
 
           {/* Contact Us Section */}
           <div>
-            <h4 className="font-['Playfair_Display'] text-xl font-bold text-white mb-4">
+            <h4 className="text-xl font-bold text-white mb-4">
               Contact Us
             </h4>
             <p className="flex items-center mb-2 text-sm">

@@ -66,7 +66,7 @@ const featuresData = [
 
 function Features() {
   return (
-    <section id="features" className="bg-white py-20">
+    <section id="features" className="py-20">
       <style>{`
         .swiper-pagination.swiper-pagination-bullets {
           margin-top: 2rem;
@@ -74,7 +74,7 @@ function Features() {
       `}</style>
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-['Playfair_Display'] text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1A374D] mb-4">
+          <h2 className="text-5xl sm:text-7xl mb-4">
             An Environment Engineered for Success
           </h2>
           <p className="text-lg text-[#212529]">
@@ -126,10 +126,10 @@ function Features() {
             >
               {featuresData.map((feature, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-full sm:w-[320px] h-[400px] mb-12 bg-white rounded-lg md:shadow-xl">
+                  <div className="bg-[#efe8d6] mx-auto sm:mx-0 sm:w-[320px] h-[400px] mb-12 rounded-lg md:shadow-xl">
                     <div className="p-6 text-center flex flex-col items-center justify-between h-full">
                       <FontAwesomeIcon icon={feature.icon} className="text-4xl text-[#B15E28] mb-4" />
-                      <h3 className="font-['Playfair_Display'] text-xl font-bold text-[#1A374D] mb-2">
+                      <h3 className="text-xl font-bold mb-2">
                         {feature.title}
                       </h3>
                       <p className="text-[#212529] mb-4 min-h-20">

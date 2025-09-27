@@ -2,12 +2,12 @@ import React from 'react';
 
 function CTA() {
   return (
-    <section id="final-cta" className="bg-[#1A374D] text-white py-20">
+    <section id="final-cta" className="bg-[#102332] text-white py-20">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="font-['Playfair_Display'] text-4xl sm:text-5xl font-bold mb-4">
+        <h2 className="text-5xl font-semibold mb-4 ">
           Your success is one focused decision away.
         </h2>
-        <p className="text-lg max-w-2xl mx-auto">
+        <p className="text-xl max-w-2xl mx-auto">
           Come and experience the most productive study environment in Uttam Nagar.
         </p>
       </div>

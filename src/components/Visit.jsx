@@ -9,10 +9,10 @@ import {
 
 const Visit = () => {
   return (
-    <section id="visit" className="bg-white py-20">
+    <section id="visit" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-['Playfair_Display'] text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1A374D] mb-4">
+          <h2 className="text-5xl sm:text-7xl font-semibold mb-4">
             Visit Us
           </h2>
         </div>
@@ -23,21 +23,21 @@ const Visit = () => {
           </div>
 
           <div className="contact-info">
-            <h3 className="font-['Playfair_Display'] text-2xl font-bold text-[#1A374D] mb-4">
+            <h3 className="text-2xl font-bold mb-4">
               Our Location
             </h3>
-            <p className="mb-4 text-[#212529]">
+            <p className="mb-4 text-lg">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#B15E28] mr-3" />
               1st Floor, E-10, East Metro, Block A, Ram Datt Enclave, Uttam Nagar, New Delhi, Delhi, 110059
             </p>
-            <p className="mb-4 text-[#212529]">
+            <p className="mb-4 text-lg">
               <FontAwesomeIcon icon={faPhone} className="text-[#B15E28] mr-3" />
               099112 96636
             </p>
-            <h3 className="font-['Playfair_Display'] text-2xl font-bold text-[#1A374D] mb-4 mt-6">
+            <h3 className="text-2xl font-bold mb-4 mt-6">
               Hours
             </h3>
-            <p className="mb-2 text-[#212529]">
+            <p className="mb-2 text-lg">
               <FontAwesomeIcon icon={faClock} className="text-[#B15E28] mr-3" />
               Monday - Sunday: 7:00 AM - 10:00 PM
             </p>

@@ -2,26 +2,23 @@ import React from 'react';
 
 function ProSol() {
   return (
-    <section id="problem-solution" className="bg-white py-20 px-4 md:px-6">
+    <section id="problem-solution" className="my-20 px-4 sm:px-6">
       <div className="container mx-auto">
-        <h2 className="font-['Playfair_Display'] text-3xl sm:text-4xl lg:text-[40px] font-bold text-[#1A374D] text-center md:col-span-2 mb-4">
-          Stop Fighting for Focus. Start Studying Effectively.
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mt-20">
-          <div>
-            <h3 className="font-['Playfair_Display'] text-2xl font-bold text-[#1A374D] mb-4">
-              The Problem
-            </h3>
-            <p className="text-[#212529] leading-relaxed">
-              Studying at home is full of family interruptions. Local cafes are too loud, crowded, and expensive. When every hour of preparation counts, you can't afford to waste time in a distracting environment.
-            </p>
+        <div className='flex flex-col sm:flex-row items-center justify-center mx-3 lg:mx-20'>
+          <div className='mb-5 sm:mb-0 '>
+            <h1 className='text-5xl sm:text-7xl'>
+              our solution to a much bigger problem
+            </h1>
           </div>
-          <div>
-            <h3 className="font-['Playfair_Display'] mt-1 text-2xl font-bold md:pl-6 text-[#1A374D] mb-4">
-              The Solution
-            </h3>
-            <p className="text-[#212529] leading-relaxed md:border-l-4 md:border-[#B15E28] md:pl-6">
-              We built Karam's Library for one reason: to provide the perfect atmosphere for deep focus. With our strict "Maintain Silence" policy, comfortable infrastructure, and community of like-minded students, your productivity is our priority.
+          <div className='md:ml-30 sm:px-4 text-lg'>
+            <p>
+              Are you also tired of the family interruptions at home, noisy crowded cafes, and <span className='text-orange-700'>wasting precious preparation time</span> in distracting spaces?
+            </p>
+            <p>
+              <span className='font-semibold'>That's exactly why we built Karam's Library,</span> to give you the <span className='text-orange-700'>perfect atmosphere for deep focus.</span>
+            </p>
+            <p>
+              With strict silence, comfy setup, and a community of serious students, we make your productivity the priority.
             </p>
           </div>
         </div>
