@@ -7,7 +7,7 @@ function ProSol() {
         <div className='flex flex-col sm:flex-row items-center justify-center mx-3 lg:mx-20'>
           <div className='mb-5 sm:mb-0 '>
             <h1 className='text-5xl sm:text-7xl'>
-              our solution to a much bigger problem
+              Our Solution to a much Bigger Problem
             </h1>
           </div>
           <div className='md:ml-30 sm:px-4 text-lg'>

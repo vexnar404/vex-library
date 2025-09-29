@@ -26,7 +26,7 @@ function Hero() {
 
         <div className='text-black mt-2.5 mb-8'>
           <h1 className='text-5xl sm:text-7xl md:w-2/3 mx-auto mb-2'>
-            welcome to your uninterrupted <span className='text-orange-500 italic'>focus</span> zone
+            Welcome to your Uninterrupted <span className='text-orange-500 italic'>focus</span> Zone
           </h1>
           <p className='text-lg mx-auto md:w-1/3'>
             A premium self-study library built for aspirants who desire peace, focus, and productivity to hit their goals.

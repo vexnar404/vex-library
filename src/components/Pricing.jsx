@@ -32,7 +32,7 @@ function Pricing() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-5xl sm:text-7xl  mb-2">
-            plans
+            Plans
           </h2>
           <p className='text-xl'>
             that everyone can afford
