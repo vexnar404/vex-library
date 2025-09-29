@@ -24,7 +24,7 @@ function Hero() {
           Daily pass is now available
         </div>
 
-        <div className='text-black mt-2.5 mb-8'>
+        <div className='mt-2.5 mb-8'>
           <h1 className='text-5xl sm:text-7xl md:w-2/3 mx-auto mb-2'>
             Welcome to your Uninterrupted <span className='text-orange-500 italic'>focus</span> Zone
           </h1>
