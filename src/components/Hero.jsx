@@ -17,7 +17,7 @@ const slides = [heroPhoto1, heroPhoto2, heroPhoto3];
 
 function Hero() {
   return (
-    <section id="home" className="mt-28 pt-10 flex flex-col items-center text-center text-white overflow-hidden px-4 md:px-10">
+    <section id="home" className="mt-28 pt-10 flex flex-col items-center text-center overflow-hidden px-4 md:px-10">
       <div className="flex flex-col relative">
         <div className="flex items-center justify-center mx-auto p-1.5 shadow-md text-black text-sm rounded-3xl bg-[#efe7d6]">
           <span className='px-2.5 py-1 text-white bg-orange-500 rounded-2xl mr-1'>NEW</span>
