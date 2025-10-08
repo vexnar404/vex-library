@@ -4,11 +4,11 @@ import rq from '../assets/rq.png';
 
 const testimonialsData = [
   {
-    quote: 'The silence here is absolute. I was struggling to study at home, but at Karam\'s Library, my productivity has doubled. The individual carrels are a game-changer for focus.',
+    quote: 'The silence here is absolute. I was struggling to study at home, but at Vex\'s Library, my productivity has doubled. The individual carrels are a game-changer for focus.',
     author: 'Priya S., UPSC Aspirant',
   },
   {
-    quote: 'The best part is the infrastructure—uninterrupted power and fast Wi-Fi are crucial for my online classes. It’s clean, comfortable, and full of other serious students, which is very motivating.',
+    quote: 'The best part is the infrastructure—uninterrupted power and fast Wi-Fi are crucial for my online classes. It\’s clean, comfortable, and full of other serious students, which is very motivating.',
     author: 'Rahul V., NEET Aspirant',
   },
 ];

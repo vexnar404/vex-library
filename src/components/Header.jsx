@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Menu } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-scroll';
-import Logo from './../assets/logo.png';
 
 const Header = () => {
   const { scrollY } = useScroll();
@@ -31,12 +30,7 @@ const Header = () => {
           duration={500} 
           className="flex-shrink-0 cursor-pointer"
         >
-          <motion.img
-            src={Logo}
-            alt="Karam's Library Logo"
-            style={{ height: logoHeight }}
-            className="transition-all duration-300 ease-in-out"
-          />
+          <p>Vex's Library</p>
         </Link>
 
         {/* Desktop Navigation */}

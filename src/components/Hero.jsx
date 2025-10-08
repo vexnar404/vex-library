@@ -9,9 +9,9 @@ import 'swiper/css/pagination';
 // Import required Swiper modules
 import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 
-import heroPhoto1 from './../assets/hero-photo-1.jpg';
-import heroPhoto2 from './../assets/hero-photo-2.jpg';
-import heroPhoto3 from './../assets/hero-photo-3.jpg';
+import heroPhoto1 from './../assets/1.jpg';
+import heroPhoto2 from './../assets/2.jpg';
+import heroPhoto3 from './../assets/3.jpg';
 
 const slides = [heroPhoto1, heroPhoto2, heroPhoto3];
 

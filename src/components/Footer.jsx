@@ -16,10 +16,10 @@ function Footer() {
           {/* About Section */}
           <div>
             <h4 className="text-xl font-bold text-white mb-4">
-              About Karam's Library
+              About Vex's Library
             </h4>
             <p className="text-sm">
-              Your premium self-study space in Uttam Nagar, designed for serious aspirants who demand a peaceful and productive environment.
+              Your premium self-study space in New Delhi, designed for serious aspirants who demand a peaceful and productive environment.
             </p>
           </div>
 
@@ -43,11 +43,11 @@ function Footer() {
             </h4>
             <p className="flex items-center mb-2 text-sm">
               <FontAwesomeIcon icon={faPhone} className="text-[#B15E28] mr-3" />
-              099112 96636
+              099999 XXXXX
             </p>
             <p className="flex items-center text-sm">
               <FontAwesomeIcon icon={faEnvelope} className="text-[#B15E28] mr-3" />
-              sundeep.karam@gmail.com
+              vex.library@gmail.com
             </p>
           </div>
         </div>
@@ -55,10 +55,10 @@ function Footer() {
         {/* Footer Bottom Section */}
         <div className="border-t border-[#406882] pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-[#ccc]">
           <p className="text-center md:text-left mb-2 md:mb-0">
-            © 2025 Karam's Library. All Rights Reserved.
+            © 2025 Vex's Library. All Rights Reserved.
           </p>
           <p className="flex items-center text-center md:text-right">
-            Dev <FontAwesomeIcon icon={faRobot} className="mx-1 text-sm" />: Arpit Bhattacharjee
+            Dev <FontAwesomeIcon icon={faRobot} className="mx-1 text-sm" />: Arpit
           </p>
         </div>
       </div>

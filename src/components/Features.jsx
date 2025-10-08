@@ -18,12 +18,12 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 // Make sure to update these image paths to your project's asset location.
-import deskPhoto from './../assets/desk-photo.jpg';
+import deskPhoto from './../assets/desk.jpeg';
 import powerBackupPhoto from './../assets/power-backup-photo.jpg';
-import wifiPhoto from './../assets/wifi-photo.jpg';
+import wifiPhoto from './../assets/wifi.jpg';
 import lockersPhoto from './../assets/lockers-photo.jpg';
-import biometricPhoto from './../assets/biometric-photo.jpg';
-import teaCoffeePhoto from './../assets/tea-coffee-photo.jpg';
+import biometricPhoto from './../assets/biometric.jpeg';
+import teaCoffeePhoto from './../assets/snacks.jpeg';
 
 const featuresData = [
   {
@@ -58,8 +58,8 @@ const featuresData = [
   },
   {
     icon: faMugHot,
-    title: 'Complimentary Tea/Coffee',
-    description: 'Stay refreshed and focused with our complimentary tea and coffee service, available for all members to enjoy.',
+    title: 'Snacks Counter',
+    description: 'Stay refreshed and focused with our complimentary coffee and snacks, available for all members to enjoy.',
     image: teaCoffeePhoto,
   },
 ];

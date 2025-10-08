@@ -8,7 +8,7 @@ function CTA() {
           Your success is one focused decision away.
         </h2>
         <p className="text-xl max-w-2xl mx-auto">
-          Come and experience the most productive study environment in Uttam Nagar.
+          Come and experience the most productive study environment in New Delhi.
         </p>
       </div>
     </section>
